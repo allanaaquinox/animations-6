@@ -1,0 +1,69 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.qua{
+    width: 200px;
+    height: 200px;
+    animation: angulo 3s infinite;
+
+
+}
+
+@keyframes angulo {
+    0%{
+       
+        transform: rotateZ(0deg);
+     }
+ 
+ 
+     12%{
+         transform: rotateZ(45deg);  
+         background-color: purple;
+     }
+ 
+     
+     25%{
+ 
+         transform: rotateZ(90deg);  
+         background-color: black;
+     }
+ 
+     
+     37%{
+         transform: rotate(135deg);  
+         background-color: blue;
+     }
+ 
+ 
+     50%{
+         transform: rotate(180deg);  
+         background-color: yellow;
+     }
+     62%{
+         transform: rotate(225deg);  
+         background-color: red;
+     }
+ 
+     
+     75%{
+         transform: rotate(270deg);  
+         background-color: green;
+     }
+ 
+     
+     87%{
+         transform: rotate(315deg);  
+         background-color: orange;
+     }
+ 
+     
+ 
+     100%{
+         transform: rotateZ(360deg);
+}
+}
+
